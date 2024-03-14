@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alterar(); style='font-size 3';  ">mudar o texto</button>
+
+<h2>Aula 5</h2>
+<h3>pegando elementos pela tag</h3>
+<h3>aprendendo o comando getElementByName </h3>
+<h3>este cmando retorna um vetor</h3>
+
+<script>
+    function alterar(){
+document.getElementsByTagName("h3")[1].innerHTML = 
+"alterei o texto do segundo h3!";
+
+    document.getElementsByTagName("h3")[2].innerHTML = 
+"alterei o texto do terceiro h3!";
+
+document.getElementsByTagName("h2")[0].innerHTML = 
+"alterei o texto do h2!";
+
+    }
+</script>
+
+
+</body>
+</html>

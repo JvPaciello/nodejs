@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .texto {
+            color: brown;
+            font-family: "Lucida Santos";
+            font-style: italic;
+
+        }
+
+        .titulo {
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border: solid 4px purple;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="alterar();">botão</button>
+
+    <h2 class="titulo">Aula </h2>
+    <h3 class="texto">AAAAAAAAAA</h3>
+    <h3 class="texto">BBBBBBBBB</h3>
+    <h3></h3>
+
+    <script>
+        function alterar() {
+            document.getElementsByClassName("titulo")[0].innerHTML =
+                "alterei o texto ";
+
+            document.getElementsByClassName("texto")[0].innerHTML =
+                "alterei o texto ";
+
+            document.getElementsByClassName("texto")[1].innerHTML =
+                "alterei o texto";
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>
